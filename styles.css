@@ -1,1 +1,31 @@
 /*  your css code here. If applicable */
+:root{
+	background-color:rgb(135, 206, 235);
+}
+.para >p:first-child {
+ background-color: black;
+	color:white;
+}
+.para >p:nth-child(2){
+	color:black;	
+}
+.para >p:last-child{
+	color: red;
+}
+li{
+	width:50%;
+	padding:10px;
+}
+ul >li:nth-child(2n){
+	background-color:gray;
+}
+ul >li:nth-child(2n+1){
+	background-color:white;
+}
+ul >li:first-child,ul >li:last-child {
+	background-color:white;
+	font-size:22px;
+}
+ul >li:nth-child(n+3){
+	background-color:pink;
+}
